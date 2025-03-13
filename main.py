@@ -1,3 +1,4 @@
-# change it to print your name
+name = "Reccy Asingwa"  
+age = 26  
 
-print("Hello, I am Piotr Brudny")
+print("My name is", name, "and I am", age, "years old.")
