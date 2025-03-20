@@ -1,0 +1,45 @@
+# Define a list of animals with the specified attributes
+animals = [
+    {
+        'name': 'Cat',
+        'group': 'Mammals',
+        'number_of_legs': 4,
+        'skills': ['Climbing', 'Hunting', 'Purring']
+    },
+    {
+        'name': 'Dog',
+        'group': 'Mammals',
+        'number_of_legs': 4,
+        'skills': ['Running', 'Fetching', 'Guarding']
+    },
+    {
+        'name': 'Eagle',
+        'group': 'Birds',
+        'number_of_legs': 2,
+        'skills': ['Flying', 'Hunting']
+    },
+    {
+        'name': 'Shark',
+        'group': 'Fish',
+        'number_of_legs': 0,
+        'skills': ['Swimming', 'Hunting']
+    },
+    {
+        'name': 'Cobra',
+        'group': 'Reptiles',
+        'number_of_legs': 0,
+        'skills': ['Hissing', 'Striking']
+    }
+]
+
+# Function to display information about each animal
+def display_animal_info(animals):
+    for animal in animals:
+        print(f"Name: {animal['name']}")
+        print(f"Group: {animal['group']}")
+        print(f"Number of Legs: {animal['number_of_legs']}")
+        print(f"Skills: {', '.join(animal['skills'])}")
+        print()
+
+# Display information about all animals
+display_animal_info(animals)

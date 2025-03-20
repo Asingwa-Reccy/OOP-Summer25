@@ -1,5 +1,5 @@
 # Defining variables
-name = "Reccy Asingwa"
+name = "Tome Done"
 age = 26
 city = "Nairobi, Kenya"
 university = "University of Arts and Technology in Warsaw"

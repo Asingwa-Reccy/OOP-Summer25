@@ -1,0 +1,20 @@
+# AND Gate Simulation
+def and_gate(input1, input2):
+    # Perform AND operation
+    return input1 & input2  # Use bitwise AND operator for logical operation
+
+# Test the function
+try:
+    input1 = int(input("Enter Input 1 (0 or 1): "))
+    input2 = int(input("Enter Input 2 (0 or 1): "))
+
+    # Validate inputs
+    if input1 in [0, 1] and input2 in [0, 1]:
+        output = and_gate(input1, input2)
+        print(f"AND Gate Output: {output}")
+    else:
+        print("Invalid inputs! Please enter only 0 or 1.")
+
+except ValueError:
+    print("Invalid input! Please enter numeric values (0 or 1).")
+
