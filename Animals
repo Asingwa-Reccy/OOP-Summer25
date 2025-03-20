@@ -43,3 +43,32 @@ def display_animal_info(animals):
 
 # Display information about all animals
 display_animal_info(animals)
+
+# Define the Animal class
+class Animal:
+    def __init__(self, name, group, number_of_legs, skills):
+        self.name = name
+        self.group = group
+        self.number_of_legs = number_of_legs
+        self.skills = skills
+
+    def display_info(self):
+        print(f"Name: {self.name}")
+        print(f"Group: {self.group}")
+        print(f"Number of Legs: {self.number_of_legs}")
+        print(f"Skills: {', '.join(self.skills)}")
+        print()
+
+# Creating instances of the Animal class
+cat = Animal('Cat', 'Mammals', 4, ['Climbing', 'Hunting', 'Purring'])
+dog = Animal('Dog', 'Mammals', 4, ['Running', 'Fetching', 'Guarding'])
+eagle = Animal('Eagle', 'Birds', 2, ['Flying', 'Hunting'])
+shark = Animal('Shark', 'Fish', 0, ['Swimming', 'Hunting'])
+cobra = Animal('Cobra', 'Reptiles', 0, ['Hissing', 'Striking'])
+
+# List of animals
+animals = [cat, dog, eagle, shark, cobra]
+
+# Display information for each animal
+for animal in animals:
+    animal.display_info()
