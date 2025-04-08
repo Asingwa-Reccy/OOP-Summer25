@@ -1,0 +1,40 @@
+# Q1    Create three variables name, age, and country with your own details. Print a sentence using all of them
+x = "my name is reccy"
+y = "i am 77 years"
+z = "and i come from Kenya"
+print(x, y, z)
+
+# Q2    Assign values to x, y, and z in a single line. Make x = 10, y = "hello", z = 3.5.
+x, y, z = 10 , "hello", 3.5
+print (x)
+print(y)
+print(z)
+
+# Q3    Assign the value "apple" to three different variables: fruit1, fruit2, and fruit3, all in one line.
+fruit1 = "apple"
+fruit2 = "apple"
+fruit3 ="apple"
+print(fruit1)
+print(fruit2)
+print(fruit3)
+
+# Q5 Create a variable product with value "Shoes" and a variable price with value 49.99. Print
+product = "Shoes" 
+price = 49.99
+print(product)
+print(price)
+
+# Create a global variable called score with value 50. Write a function that adds 10 to score and prints the new value.
+score = 50
+
+def myfunc():
+  score = 50
+  print(score + 10)
+
+myfunc()
+
+print("score " + 10)
+
+# Q6    Enter their favorite color and store it in a variable. Then print a message using that variable.
+favorite_color = ("What is your favorite color? ")
+print(f"My favorite color is {favorite_color}.")
