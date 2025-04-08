@@ -1,0 +1,8 @@
+# Create three variables name, age, and country with your own details. Print a sentence using all of them
+
+x = "reccy"
+y = "70"
+z = "Kenya"
+print (x)
+print(y)
+print(z)
