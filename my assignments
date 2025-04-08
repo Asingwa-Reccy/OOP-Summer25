@@ -36,5 +36,39 @@ myfunc()
 print("score " + 10)
 
 # Q6    Enter their favorite color and store it in a variable. Then print a message using that variable.
-favorite_color = ("What is your favorite color? ")
+
+favorite_color = input("What is your favorite color? ")
+
+
 print(f"My favorite color is {favorite_color}.")
+
+
+ # Assign your first name and age to two variables. Print this sentence using variables:
+ name = "reccy"
+age = 77
+print(f"Hi, my name is {reccy} and I am {77} years old")
+
+# Q7   Store your age in a variable and print a sentence saying "I am [age] years old.
+
+age = 77
+print(f"I am {77} years old.")
+
+# Q8    Create two variables first_name and last_name. Assign your first and last name to them. Then, print your full name by concatenating the two variables.
+
+first_name = "Reccy"
+last_name = "Asingwa"
+
+print(first_name + " " + last_name)
+
+
+
+#Q9     Assign two numbers to variables x and y. Add them together and print the result.
+x = 10
+y = 20
+result = x + y
+print("The result of the addition is:", result)
+
+# Q10   Create a variable favorite_food and assign your favorite food to it. Print a message saying "My favorite food is [favorite_food
+favorite_food = "Pizza"
+
+print(f"My favorite food is {favorite_food}.")
